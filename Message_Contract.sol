@@ -12,6 +12,6 @@ contract Inbox {
     }
     
     function getMessage() public view returns (string) {
-        return message;
+        return message; // This function is actually un-necessary as string public message produces a function by default
     }
 }
