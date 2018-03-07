@@ -1,4 +1,4 @@
-pragma solidity ^0.4.17;
+pragma solidity ^0.4.19; // latest version at the time of coding
 
 contract Inbox {
     string public message;
